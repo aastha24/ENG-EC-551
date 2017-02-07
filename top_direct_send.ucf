@@ -1,0 +1,67 @@
+
+
+
+NET "clk" LOC = V10;
+NET "clk" IOSTANDARD = LVCMOS33;
+NET "rst" LOC = A8;
+NET "rst" IOSTANDARD = LVCMOS33;
+
+
+#NET "RsRx" LOC = N17;
+#NET "dout<7>" LOC = T11;
+#NET "dout<7>" IOSTANDARD = LVCMOS33;
+#NET "dout<6>" LOC = R11;
+#NET "dout<6>" IOSTANDARD = LVCMOS33;
+#NET "dout<5>" LOC = N11;
+#NET "dout<5>" IOSTANDARD = LVCMOS33;
+#NET "dout<4>" LOC = M11;
+#NET "dout<4>" IOSTANDARD = LVCMOS33;
+#NET "dout<3>" LOC = V15;
+#NET "dout<3>" IOSTANDARD = LVCMOS33;
+#NET "dout<2>" LOC = U15;
+#NET "dout<2>" IOSTANDARD = LVCMOS33;
+#NET "dout<1>" LOC = V16;
+#NET "dout<1>" IOSTANDARD = LVCMOS33;
+#NET "dout<0>" LOC = U16;
+#NET "dout<0>" IOSTANDARD = LVCMOS33;
+
+#NET "RsRx" IOSTANDARD = LVCMOS33;
+#NET "data<7>" LOC=T5;
+#NET "data<6>" LOC=V8;
+#NET "data<5>" LOC=U8;
+#NET "data<4>" LOC=N8;
+#NET "data<3>" LOC=M8;
+#NET "data<2>" LOC=V9;
+#NET "data<1>" LOC=T9;
+#NET "data<0>" LOC=T10;
+
+#NET "tx_start" LOC = T10;
+#NET "tx_start" IOSTANDARD = LVCMOS33;
+
+NET "starter" LOC = N11;
+NET "starter" IOSTANDARD = LVCMOS33;
+
+NET "sender" LOC = M11;
+NET "sender" IOSTANDARD = LVCMOS33;
+
+NET "clk_k" LOC = L12;
+NET "kdata" LOC = J13;
+#
+## PlanAhead Generated IO constraints 
+NET "clk_k" PULLUP;
+NET "kdata" PULLUP;
+
+NET "RsTx" LOC = N18;
+NET "RsTx" IOSTANDARD = LVCMOS33;
+
+NET "tx_ready" LOC=U16;
+NET "tx_ready" IOSTANDARD = LVCMOS33;
+
+//for keyboard
+#NET "clk_k" LOC = L12;
+#NET "data_k" LOC = J13;
+#
+## PlanAhead Generated IO constraints 
+#
+#NET "clk_k" PULLUP;
+#NET "data_k" PULLUP;
