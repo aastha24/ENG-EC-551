@@ -1,9 +1,9 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: Aastha Anand & Runal Nair
+// Engineer: 
 // 
-// Create Date:    19:25:17 11/12/2016 
+// Create Date:    19:25:26 11/13/2016 
 // Design Name: 
 // Module Name:    lfscounter 
 // Project Name: 
@@ -110,4 +110,3 @@ end
 
         
 endmodule
-
